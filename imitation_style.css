@@ -1,0 +1,60 @@
+.header {
+	height: 15vh;
+	background-color: peachpuff;
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 45px;
+}
+body{
+	background-color: peru;
+}
+
+.card .card-header {
+	background-color: bisque;
+	transition: 0.2s;
+}
+
+.card .card-header:hover {
+	background-color: peachpuff;
+	transition: 0.2s;
+}
+
+.card .card-body .card-body__header:hover {
+	color: yellow;
+	transition: 0.2s;
+}
+
+.seagull-style{
+ 	background:linear-gradient(135deg, hsl(240, 75%, 65%), white);
+ 	box-shadow: 0px 10px 10px gray;
+ 	padding-right: 25%;
+ 	padding-left: 25%;
+}
+.tic-toe-style{
+	margin-left: 25%;
+	border-image-source: url(images/imitation_assignment/tic-tac-toe.png);
+	display: inline-block;
+	border: 35px solid transparent;
+  	border-image-repeat: round;
+  	border-image-slice: 60;
+}
+.stage-teater-text-style {
+	display: inline-block;
+  	font-size: 30px;
+    bottom: 210px;
+  	padding-left: 130px;
+    color: white;
+ 	position: relative;
+}
+
+i {
+	font-size: 30px !important;
+	padding-right: 15px;
+	color: black	
+}
+
+a {
+	text-decoration: none !important;
+	color: black;
+}
